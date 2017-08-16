@@ -9,4 +9,4 @@ before_install:
     - sudo apt-get update
     - sudo apt-get install qemu-user-static xz-utils binfmt-support
 script:
-    - sh install-dependencies.sh
+    - sudo sh install-dependencies.sh
