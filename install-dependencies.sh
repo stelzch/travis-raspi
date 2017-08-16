@@ -1,7 +1,7 @@
 #!/bin/sh
 
 OSDIR=raspbian_lite
-wget https://downloads.raspberrypi.org/raspbian_lite/root.tar.xz \
+wget https://downloads.raspberrypi.org/raspbian_lite/2016-11-29-16:33/root.tar.xz \
     -O $OSDIR.tar.xz
 mkdir $OSDIR
 tar xJf $OSDIR.tar.xz -C $OSDIR
