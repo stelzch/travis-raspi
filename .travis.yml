@@ -1,11 +1,11 @@
 sudo: required
 dist: trusty
 language: python
+python:
+    - "3.4"
 env:
     - RASPBIAN_VERSION="2017-07-05-17:42"
 before_install:
     - sudo apt install -qq qemu-user-static xz-utils
-python:
-    - "3.4"
 script:
     - sh install-dependencies.sh
